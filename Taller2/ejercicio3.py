@@ -38,7 +38,7 @@ def main():
     for cadena in lista:
         print(cadena.texto)
 
-    file = open(r"archivos/cadenas.txt", "a")
+    file = open(r"C:\JuanJose\UTP\Semestre5\Programacion4\Taller2\archivos\cadenas.txt", "a")
 
     file.write("[")
     for i in range(15):
@@ -46,5 +46,7 @@ def main():
         if(i != 14):
             file.write(", ")
     file.write("]\n")
+
+    file.close()
 
 main()

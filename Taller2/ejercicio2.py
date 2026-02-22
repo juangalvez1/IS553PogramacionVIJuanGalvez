@@ -26,7 +26,7 @@ def main():
     temp = Frase()
     temp.count_word(word, list, tam)
 
-    file = open(r"archivos/frase.txt", "a")
+    file = open(r"C:\JuanJose\UTP\Semestre5\Programacion4\Taller2\archivos\frase.txt", "a")
 
     for i in range(tam):
         file.write(list[i].texto)

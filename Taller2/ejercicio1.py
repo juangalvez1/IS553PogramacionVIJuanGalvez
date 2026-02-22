@@ -22,11 +22,11 @@ def main():
 
     print(f"\nsuma: {num.sum_digits()}\n")
     
-    file = open(r"archivos/numeros.txt", "a+")
+    file = open(r"C:\JuanJose\UTP\Semestre5\Programacion4\Taller2\archivos\numeros.txt", "a+")
     num.register_num(file)
     file.close()
 
-    file = open(r"archivos/numeros.txt", "r")
+    file = open(r"C:\JuanJose\UTP\Semestre5\Programacion4\Taller2\archivos\numeros.txt", "r")
     read = file.read()
     print(f"ARCHIVO:\n{read}")
     file.close()
